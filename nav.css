@@ -1,0 +1,11 @@
+nav {
+	background-color: #fff;
+	padding-top: 20px;
+	height: 80px;
+	width:100%;
+	position: fixed;
+	z-index: 1212;
+	top:0;
+	left:0;
+
+}

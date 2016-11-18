@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200|Roboto:100|Source+Sans+Pro:200');
+
+body {
+ font-family: 'Raleway', sans-serif;
+ font-size: 18px;
+ color:#000;
+    background-image: url("../images/practice_ball.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ ul{
+ 	display: inline-block;
+ 	list-style: none;
+ 	width: 100%;
+ }
+
+ li{
+ 	display: inline-block;
+ }
+  #logo {
+ float: left;
+ width:50%;
+
+}
+ #nav {
+ float: right;
+ width:50%;
+
+}
+
+
+header {
+margin-top: 200px;
+padding-bottom: 50px;
+height:auto;
+}
+
+footer {
+
+	margin-bottom: 50px;
+	padding-bottom: 10px;
+	width:100%;
+	height: 100%;
+	border: 2px;
+	border-style: solid;
+	border-color: #000;
+	position: relative;
+	float:left;
+}
+
+section {
+	margin-bottom: 50px;
+	padding-bottom: 10px;
+	width:80%;
+	height: 100%;
+	border: 2px;
+	border-style: solid;
+	border-color: #000;
+	position: relative;
+	float:left;
+
+}
+
+div {
+	width:100%;
+	height:100%;
+}
+
+section div{
+	position: relative;
+}
+
+aside {
+	float:right;
+		border: 2px;
+	border-style: solid;
+	border-color: #000;
+
+}
+
+p {
+
+}
+
+h1 {
+
+}
+
+/* responsive (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1020px) {
+/* Styles */
+
+p {
+	width:100px;
+}
+}
